@@ -1,0 +1,33 @@
+{
+    "name": "NotifiTemplate",
+    "fields": [
+        {
+            "fieldName": "emailAddresses",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "message",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "maxlength"
+            ],
+            "fieldValidateRulesMaxlength": 600
+        }
+    ],
+    "relationships": [],
+    "changelogDate": "20191127142525",
+    "entityTableName": "notifi_template",
+    "dto": "no",
+    "pagination": "no",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "HondaStocOnline"
+    ]
+}

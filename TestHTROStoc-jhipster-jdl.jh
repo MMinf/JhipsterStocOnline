@@ -1,0 +1,106 @@
+application {
+  config {
+    applicationType monolith,
+    baseName HondaStocOnline
+    packageName com.custom.lgk.htro,
+    authenticationType jwt,
+    prodDatabaseType oracle,
+    buildTool maven,
+    searchEngine elasticsearch,
+    testFrameworks [protractor],
+    clientFramework react,
+    useSass true,
+    enableTranslation true,
+    nativeLanguage en,
+    languages [en, ro]
+  }
+  entities Stoc, Portofoliu, Dealer, NotifiTemplate, ExtendedUser
+}
+
+entity ExtendedUser {
+	birthday LocalDate
+	gender String
+	mobileNo Integer
+}
+entity NotifiTemplate {
+	emailAddresses String required
+	message String maxlength(600)
+}
+entity Dealer {
+    name String required
+    description String
+    tipAutovehicule TipuriAuto
+    dealerId String
+}
+entity Portofoliu {
+	HTROCARNO Integer
+	DEALER String 
+	DATAREZSAUFACTURA String 
+	DATAEXPIRARE String 
+	RESDEALERID Integer
+	TIPLINIE String 
+	LOCATIE String 
+	LUNAPRODUCTIE String 
+	LUNASOSIREINTARA String 
+	CODMODEL String 
+	TIPAUTOVEHICUL String 
+	CODCULOAREEXT String 
+	CULOAREEXTERIOR String 
+	CULOAREIntegerERIOR String 
+	OBSERVATII String 
+	NUMECLIENT String 
+	NUMEVANZATOR String 
+	VIN String 
+	ENGINENO String 
+	ANFABRICATIECFCIV Integer
+	OMOLOGAREINDIVIDUALA String 
+	PRETLISTA Integer
+	DISCOUNTSTANDARD Integer
+	DISCOUNTSUPLIMENTAR Integer
+	TRUSALEGISLATIVA Integer
+	PRETFINAL Integer
+	AVANSPLATIT Integer
+	RESTDEPLATA Integer
+	CUSTOMERTRXID Integer
+	REZCUSTID String 
+	SOLDCUSTID Integer
+	PROFORMA Boolean
+	TRANSPORT Boolean
+}
+
+entity Stoc {
+	HTROCARNO Integer
+	RESDEALERID Integer   
+	ANFABRICATIECIV Integer
+	TIPAUTOVEHICUL String 
+	CODCULOAREEXTERIOR String 
+	DESCCULOAREEXTERIOR String 
+	VOPSEAMETALIZATA String 
+	CULOAREINTERIOR String 
+	OBSERVATII String 
+	LOCATIE String 
+	OMOLOGAREIND String 
+	LUNASOSIREINTARA String 
+	REZERVATA String 
+	DATAEXPIRAREREZ String
+}
+
+enum TipuriAuto {
+    AUTOMOBILE, MOTOCILCETE, TOATE
+}
+
+relationship OneToOne {
+    ExtendedUser{user} to User
+}
+
+relationship ManyToOne {
+    Stoc{dealer(dealerId)} to Dealer
+    Portofoliu{dealer(dealerId)} to Dealer
+}
+
+relationship ManyToMany {
+    Dealer{user(login)} to User{login}
+}
+
+paginate Stoc, Portofoliu with infinite-scroll
+paginate Dealer with pagination

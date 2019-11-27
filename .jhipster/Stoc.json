@@ -1,0 +1,82 @@
+{
+    "name": "Stoc",
+    "fields": [
+        {
+            "fieldName": "hTROCARNO",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "rESDEALERID",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "aNFABRICATIECIV",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "tIPAUTOVEHICUL",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cODCULOAREEXTERIOR",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dESCCULOAREEXTERIOR",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "vOPSEAMETALIZATA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cULOAREINTERIOR",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "oBSERVATII",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lOCATIE",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "oMOLOGAREIND",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lUNASOSIREINTARA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "rEZERVATA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dATAEXPIRAREREZ",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "dealer",
+            "otherEntityRelationshipName": "stoc",
+            "relationshipName": "dealer",
+            "otherEntityField": "dealerId"
+        }
+    ],
+    "changelogDate": "20191127142528",
+    "entityTableName": "stoc",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "HondaStocOnline"
+    ]
+}

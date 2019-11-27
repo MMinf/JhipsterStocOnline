@@ -1,0 +1,18 @@
+version: '2'
+services:
+  hondastoconline-app:
+    image: hondastoconline
+    environment:
+      - _JAVA_OPTIONS=-Xmx512m -Xms256m
+      - SPRING_PROFILES_ACTIVE=prod,swagger
+      - MANAGEMENT_METRICS_EXPORT_PROMETHEUS_ENABLED=true
+      - SPRING_DATASOURCE_URL=jdbc:oracle:thin:@hondastoconline-oracle:1521:HondaStocOnline
+      - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
+      - SPRING_DATA_JEST_URI=http://hondastoconline-elasticsearch:9200
+      - SPRING_ELASTICSEARCH_REST_URIS=http://hondastoconline-elasticsearch:9200
+    ports:
+      - 8080:8080
+  hondastoconline-elasticsearch:
+    extends:
+      file: elasticsearch.yml
+      service: hondastoconline-elasticsearch

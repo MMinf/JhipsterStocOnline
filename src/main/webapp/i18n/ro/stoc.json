@@ -1,0 +1,37 @@
+{
+  "hondaStocOnlineApp": {
+    "stoc": {
+      "home": {
+        "title": "Stocs",
+        "createLabel": "Creeare o nouă entitate Stoc",
+        "createOrEditLabel": "Creeare sau editare Stoc",
+        "search": "Căutare după Stoc",
+        "notFound": "No Stocs found"
+      },
+      "created": "A fost creată o nouă entitate Stoc cu identificatorul {{ param }}",
+      "updated": "Stoc cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Stoc cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Stoc {{ id }}?"
+      },
+      "detail": {
+        "title": "Stoc"
+      },
+      "hTROCARNO": "H TROCARNO",
+      "rESDEALERID": "R ESDEALERID",
+      "aNFABRICATIECIV": "A NFABRICATIECIV",
+      "tIPAUTOVEHICUL": "T IPAUTOVEHICUL",
+      "cODCULOAREEXTERIOR": "C ODCULOAREEXTERIOR",
+      "dESCCULOAREEXTERIOR": "D ESCCULOAREEXTERIOR",
+      "vOPSEAMETALIZATA": "V OPSEAMETALIZATA",
+      "cULOAREINTERIOR": "C ULOAREINTERIOR",
+      "oBSERVATII": "O BSERVATII",
+      "lOCATIE": "L OCATIE",
+      "oMOLOGAREIND": "O MOLOGAREIND",
+      "lUNASOSIREINTARA": "L UNASOSIREINTARA",
+      "rEZERVATA": "R EZERVATA",
+      "dATAEXPIRAREREZ": "D ATAEXPIRAREREZ",
+      "dealer": "Dealer"
+    }
+  }
+}

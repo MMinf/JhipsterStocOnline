@@ -1,0 +1,27 @@
+{
+  "hondaStocOnlineApp": {
+    "dealer": {
+      "home": {
+        "title": "Dealers",
+        "createLabel": "Creeare o nouă entitate Dealer",
+        "createOrEditLabel": "Creeare sau editare Dealer",
+        "search": "Căutare după Dealer",
+        "notFound": "No Dealers found"
+      },
+      "created": "A fost creată o nouă entitate Dealer cu identificatorul {{ param }}",
+      "updated": "Dealer cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Dealer cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Dealer {{ id }}?"
+      },
+      "detail": {
+        "title": "Dealer"
+      },
+      "name": "Name",
+      "description": "Description",
+      "tipAutovehicule": "Tip Autovehicule",
+      "dealerId": "Dealer Id",
+      "user": "User"
+    }
+  }
+}

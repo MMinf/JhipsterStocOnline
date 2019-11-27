@@ -1,0 +1,37 @@
+{
+  "hondaStocOnlineApp": {
+    "stoc": {
+      "home": {
+        "title": "Stocs",
+        "createLabel": "Create a new Stoc",
+        "createOrEditLabel": "Create or edit a Stoc",
+        "search": "Search for Stoc",
+        "notFound": "No Stocs found"
+      },
+      "created": "A new Stoc is created with identifier {{ param }}",
+      "updated": "A Stoc is updated with identifier {{ param }}",
+      "deleted": "A Stoc is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Stoc {{ id }}?"
+      },
+      "detail": {
+        "title": "Stoc"
+      },
+      "hTROCARNO": "H TROCARNO",
+      "rESDEALERID": "R ESDEALERID",
+      "aNFABRICATIECIV": "A NFABRICATIECIV",
+      "tIPAUTOVEHICUL": "T IPAUTOVEHICUL",
+      "cODCULOAREEXTERIOR": "C ODCULOAREEXTERIOR",
+      "dESCCULOAREEXTERIOR": "D ESCCULOAREEXTERIOR",
+      "vOPSEAMETALIZATA": "V OPSEAMETALIZATA",
+      "cULOAREINTERIOR": "C ULOAREINTERIOR",
+      "oBSERVATII": "O BSERVATII",
+      "lOCATIE": "L OCATIE",
+      "oMOLOGAREIND": "O MOLOGAREIND",
+      "lUNASOSIREINTARA": "L UNASOSIREINTARA",
+      "rEZERVATA": "R EZERVATA",
+      "dATAEXPIRAREREZ": "D ATAEXPIRAREREZ",
+      "dealer": "Dealer"
+    }
+  }
+}

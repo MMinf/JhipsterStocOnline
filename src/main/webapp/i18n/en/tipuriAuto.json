@@ -1,0 +1,10 @@
+{
+  "hondaStocOnlineApp": {
+    "TipuriAuto": {
+      "null": "",
+      "AUTOMOBILE": "AUTOMOBILE",
+      "MOTOCILCETE": "MOTOCILCETE",
+      "TOATE": "TOATE"
+    }
+  }
+}

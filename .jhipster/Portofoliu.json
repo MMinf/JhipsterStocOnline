@@ -1,0 +1,158 @@
+{
+    "name": "Portofoliu",
+    "fields": [
+        {
+            "fieldName": "hTROCARNO",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "dEALER",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dATAREZSAUFACTURA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "dATAEXPIRARE",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "rESDEALERID",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "tIPLINIE",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lOCATIE",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lUNAPRODUCTIE",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "lUNASOSIREINTARA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cODMODEL",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tIPAUTOVEHICUL",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cODCULOAREEXT",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cULOAREEXTERIOR",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "cULOAREIntegerERIOR",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "oBSERVATII",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nUMECLIENT",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "nUMEVANZATOR",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "vIN",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "eNGINENO",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "aNFABRICATIECFCIV",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "oMOLOGAREINDIVIDUALA",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "pRETLISTA",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "dISCOUNTSTANDARD",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "dISCOUNTSUPLIMENTAR",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "tRUSALEGISLATIVA",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "pRETFINAL",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "aVANSPLATIT",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "rESTDEPLATA",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "cUSTOMERTRXID",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "rEZCUSTID",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "sOLDCUSTID",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "pROFORMA",
+            "fieldType": "Boolean"
+        },
+        {
+            "fieldName": "tRANSPORT",
+            "fieldType": "Boolean"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-one",
+            "otherEntityName": "dealer",
+            "otherEntityRelationshipName": "portofoliu",
+            "relationshipName": "dealer",
+            "otherEntityField": "dealerId"
+        }
+    ],
+    "changelogDate": "20191127142527",
+    "entityTableName": "portofoliu",
+    "dto": "no",
+    "pagination": "infinite-scroll",
+    "service": "no",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "readOnly": false,
+    "clientRootFolder": "",
+    "applications": [
+        "HondaStocOnline"
+    ]
+}

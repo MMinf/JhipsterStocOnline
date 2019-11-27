@@ -1,0 +1,56 @@
+{
+  "hondaStocOnlineApp": {
+    "portofoliu": {
+      "home": {
+        "title": "Portofolius",
+        "createLabel": "Creeare o nouă entitate Portofoliu",
+        "createOrEditLabel": "Creeare sau editare Portofoliu",
+        "search": "Căutare după Portofoliu",
+        "notFound": "No Portofolius found"
+      },
+      "created": "A fost creată o nouă entitate Portofoliu cu identificatorul {{ param }}",
+      "updated": "Portofoliu cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Portofoliu cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Portofoliu {{ id }}?"
+      },
+      "detail": {
+        "title": "Portofoliu"
+      },
+      "hTROCARNO": "H TROCARNO",
+      "dEALER": "D EALER",
+      "dATAREZSAUFACTURA": "D ATAREZSAUFACTURA",
+      "dATAEXPIRARE": "D ATAEXPIRARE",
+      "rESDEALERID": "R ESDEALERID",
+      "tIPLINIE": "T IPLINIE",
+      "lOCATIE": "L OCATIE",
+      "lUNAPRODUCTIE": "L UNAPRODUCTIE",
+      "lUNASOSIREINTARA": "L UNASOSIREINTARA",
+      "cODMODEL": "C ODMODEL",
+      "tIPAUTOVEHICUL": "T IPAUTOVEHICUL",
+      "cODCULOAREEXT": "C ODCULOAREEXT",
+      "cULOAREEXTERIOR": "C ULOAREEXTERIOR",
+      "cULOAREIntegerERIOR": "C ULOARE Integer ERIOR",
+      "oBSERVATII": "O BSERVATII",
+      "nUMECLIENT": "N UMECLIENT",
+      "nUMEVANZATOR": "N UMEVANZATOR",
+      "vIN": "V IN",
+      "eNGINENO": "E NGINENO",
+      "aNFABRICATIECFCIV": "A NFABRICATIECFCIV",
+      "oMOLOGAREINDIVIDUALA": "O MOLOGAREINDIVIDUALA",
+      "pRETLISTA": "P RETLISTA",
+      "dISCOUNTSTANDARD": "D ISCOUNTSTANDARD",
+      "dISCOUNTSUPLIMENTAR": "D ISCOUNTSUPLIMENTAR",
+      "tRUSALEGISLATIVA": "T RUSALEGISLATIVA",
+      "pRETFINAL": "P RETFINAL",
+      "aVANSPLATIT": "A VANSPLATIT",
+      "rESTDEPLATA": "R ESTDEPLATA",
+      "cUSTOMERTRXID": "C USTOMERTRXID",
+      "rEZCUSTID": "R EZCUSTID",
+      "sOLDCUSTID": "S OLDCUSTID",
+      "pROFORMA": "P ROFORMA",
+      "tRANSPORT": "T RANSPORT",
+      "dealer": "Dealer"
+    }
+  }
+}

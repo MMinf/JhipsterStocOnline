@@ -1,0 +1,24 @@
+{
+  "hondaStocOnlineApp": {
+    "notifiTemplate": {
+      "home": {
+        "title": "Notifi Templates",
+        "createLabel": "Creeare o nouă entitate Notifi Template",
+        "createOrEditLabel": "Creeare sau editare Notifi Template",
+        "search": "Căutare după Notifi Template",
+        "notFound": "No Notifi Templates found"
+      },
+      "created": "A fost creată o nouă entitate Notifi Template cu identificatorul {{ param }}",
+      "updated": "Notifi Template cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Notifi Template cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Notifi Template {{ id }}?"
+      },
+      "detail": {
+        "title": "Notifi Template"
+      },
+      "emailAddresses": "Email Addresses",
+      "message": "Message"
+    }
+  }
+}
